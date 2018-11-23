@@ -1,0 +1,9 @@
+if BOARD_REINDEER
+
+config BUILD_OUTPUT_BIN
+        default n
+
+config BOARD
+	default "reindeer"
+
+endif

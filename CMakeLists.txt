@@ -207,6 +207,8 @@ if(CONFIG_READABLE_ASM)
   zephyr_cc_option(-fno-partial-inlining)
 endif()
 
+zephyr_cc_option(-march=RV32I)
+
 zephyr_cc_option(-fno-asynchronous-unwind-tables)
 zephyr_cc_option(-fno-pie)
 zephyr_cc_option(-fno-pic)

@@ -1,0 +1,13 @@
+identifier: reindeer
+name: PulseRain Reindeer RISCV32 softcpu
+type: reindeer
+simulation: reindeer
+arch: riscv32
+toolchain:
+  - zephyr
+  - xtools
+testing:
+  default: true
+  ignore_tags:
+    - net
+    - bluetooth

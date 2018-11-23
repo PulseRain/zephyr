@@ -6,6 +6,6 @@ zephyr_sources(
   soc_common_irq.c
   )
 
-if(NOT(CONFIG_SOC_SERIES_RISCV32_QEMU))
+if(NOT(CONFIG_SOC_SERIES_RISCV32_QEMU) AND NOT(CONFIG_SOC_SERIES_PULSERAIN_REINDEER))
   zephyr_sources(vector.S)
 endif()
