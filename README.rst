@@ -36,21 +36,12 @@ Port to `PulseRain Reindeer Soft CPU <https://github.com/PulseRain/Reindeer>`_
 
 This repository is a fork of Zephyr 1.13.0 release, and is customized to support `PulseRain Reindeer Soft CPU <https://github.com/PulseRain/Reindeer>`_
 
+Prepare for the Toolchain
+*************************
 
-Community Support
+The rest of the document assumes Zephyr SDK is used for toolchain. The details of setting up Zephyr SDK can be found `here <https://docs.zephyrproject.org/latest/getting_started/installation_linux.html>`_ 
 
-Community Support
-*****************
-
-The Zephyr Project Developer Community includes developers from member
-organizations and the general community all joining in the development of
-software within the Zephyr Project. Members contribute and discuss ideas,
-submit bugs and bug fixes, and provide training. They also help those in need
-through the community's forums such as mailing lists and IRC channels. Anyone
-can join the developer community and the community is always willing to help
-its members and the User Community to get the most out of the Zephyr Project.
-
-Welcome to the Zephyr community!
+Currently, Zephyr SDK 0.9.5 is being used for release build.
 
 Resources
 *********
