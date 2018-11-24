@@ -33,8 +33,10 @@ Port to `PulseRain Reindeer Soft CPU <https://github.com/PulseRain/Reindeer>`
 
 ***********************************
 
-This repository is a fork of Zephyr 1.13.0 release, and is customized to support PulseRain Reindeer Soft CPU (https://github.com/PulseRain/Reindeer)
+This repository is a fork of Zephyr 1.13.0 release, and is customized to support `PulseRain Reindeer Soft CPU <https://github.com/PulseRain/Reindeer>`
 
+
+Community Support
 
 Community Support
 *****************
