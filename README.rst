@@ -32,18 +32,18 @@ Build the Sample Applications
 
 The following 3 sample applications have been tested with the `PulseRain Reindeer Soft CPU <https://github.com/PulseRain/Reindeer>`_. 
 
-*) hello_world
-*) synchronization
-*) philosophers
+* hello_world
+* synchronization
+* philosophers
 
 To build for sample applications, users can do as following: (take philosophers for example)
 
-* git clone https://github.com/PulseRain/zephyr.git *
+*git clone https://github.com/PulseRain/zephyr.git*
 
-* cd zephyr/samples/philosophers;mkdir build;cd build *
+*cd zephyr/samples/philosophers;mkdir build;cd build*
 
-* cmake -DBOARD=reindeer .. *
+*cmake -DBOARD=reindeer ..*
 
-* make *
+*make*
 
 And the elf file can be found in build/zephyr/zephyr.elf
