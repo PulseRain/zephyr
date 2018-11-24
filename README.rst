@@ -22,7 +22,7 @@ This repository is a fork of Zephyr 1.13.0 release, and is customized to support
 Development Environment Setup on Linux
 **************************************
 
-Before the build, please follow the instructions here <https://docs.zephyrproject.org/latest/getting_started/installation_linux.html>`_ to setup development environment. 
+Before the build, please follow the instructions `here <https://docs.zephyrproject.org/latest/getting_started/installation_linux.html>`_ to setup development environment. 
 
 The rest of the document assumes Linux is used as host for build, and Zephyr SDK 0.9.5 is used for toolchain.
 
