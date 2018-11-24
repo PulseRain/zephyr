@@ -29,10 +29,11 @@ Intel x86, ARC, Nios II, Tensilica Xtensa, and RISC-V, and a large number of
 
 .. start_include_here
 
-Port to PulseRain Reindeer Soft CPU
+Port to `PulseRain Reindeer Soft CPU <https://github.com/PulseRain/Reindeer>`
+
 ***********************************
 
-This repository is a fork of Zephyr 1.13.0 release, and is customized to support <a href="https://github.com/PulseRain/Reindeer" target="_blank">PulseRain Reindeer Soft CPU</a>
+This repository is a fork of Zephyr 1.13.0 release, and is customized to support PulseRain Reindeer Soft CPU (https://github.com/PulseRain/Reindeer)
 
 
 Community Support
