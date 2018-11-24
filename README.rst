@@ -38,12 +38,9 @@ The following 3 sample applications have been tested with the `PulseRain Reindee
 
 To build for sample applications, users can do as following: (take philosophers for example)
 
-*git clone https://github.com/PulseRain/zephyr.git*
-
-*cd zephyr/samples/philosophers;mkdir build;cd build*
-
-*cmake -DBOARD=reindeer ..*
-
-*make*
+    $ git clone https://github.com/PulseRain/zephyr.git
+    $ cd zephyr/samples/philosophers;mkdir build;cd build
+    $ cmake -DBOARD=reindeer ..
+    $ make
 
 And the elf file can be found in build/zephyr/zephyr.elf
