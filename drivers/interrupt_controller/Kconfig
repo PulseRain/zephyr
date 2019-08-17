@@ -113,7 +113,7 @@ config ARCV2_INTERRUPT_UNIT
 config PLIC
 	bool "Platform Level Interrupt Controller (PLIC)"
 	default y
-	depends on SOC_FAMILY_RISCV_PRIVILEGE
+	depends on SOC_FAMILY_RISCV_PRIVILEGE && !SOC_PULSERAIN_RATTLESNAKE
 	select RISCV_HAS_PLIC
 	help
 	  Platform Level Interrupt Controller provides support

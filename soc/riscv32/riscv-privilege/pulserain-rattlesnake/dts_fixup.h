@@ -1,0 +1,4 @@
+
+/* UART configuration */
+#define PULSERAIN_RATTLESNAKE_UART_BASE   0x20000010
+

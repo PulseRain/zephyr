@@ -1,0 +1,13 @@
+# Kconfig - PulseRain Rattlesnake SOC implementation
+#
+# Copyright (c) 2019 PulseRain Technology, LLC
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+config SOC_SERIES_PULSERAIN_RATTLESNAKE
+	bool "PulseRain Rattlesnake RISCV32 SOC implementation"
+	depends on RISCV32
+	select SOC_FAMILY_RISCV_PRIVILEGE
+	help
+	  Enable support for PulseRain Rattlesnake RISCV32 SOC implementation

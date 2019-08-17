@@ -1,0 +1,6 @@
+
+config BOARD_RATTLESNAKE
+	bool "PulseRain Rattlesnake RISCV32 target"
+	depends on SOC_PULSERAIN_RATTLESNAKE
+	select RATTLESNAKE_TARGET
+	select HAS_DTS

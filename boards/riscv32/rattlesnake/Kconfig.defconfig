@@ -1,0 +1,9 @@
+if BOARD_RATTLESNAKE
+
+config BUILD_OUTPUT_BIN
+        default n
+
+config BOARD
+	default "rattlesnake"
+
+endif

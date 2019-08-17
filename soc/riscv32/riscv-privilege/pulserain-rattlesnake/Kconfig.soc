@@ -1,0 +1,16 @@
+# Kconfig - PULSERAIN_REINDEER SOC configuration options
+#
+# Copyright (c) 2018 PulseRain Technology, LLC
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+choice
+prompt "PulseRain Rattlesnake SOC implementation"
+depends on SOC_SERIES_PULSERAIN_RATTLESNAKE
+
+config SOC_PULSERAIN_RATTLESNAKE
+	bool "PulseRain Rattlesnake SOC implementation"
+	select ATOMIC_OPERATIONS_C
+
+endchoice

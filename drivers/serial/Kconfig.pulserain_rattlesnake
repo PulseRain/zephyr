@@ -1,0 +1,13 @@
+# Kconfig.pulserain_rattlesnake - pulserain_rattlesnake UART configuration option
+#
+# Copyright (c) 2016 Jean-Paul Etienne <fractalclone@gmail.com>
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+menuconfig UART_PULSERAIN_RATTLESNAKE
+	bool "PulseRain Rattlesnake UART driver"
+	depends on SOC_PULSERAIN_RATTLESNAKE
+	select SERIAL_HAS_DRIVER
+	help
+	  Enable the PulseRain Rattlesnake UART driver.
